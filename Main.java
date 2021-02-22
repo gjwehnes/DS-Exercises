@@ -10,21 +10,28 @@ public class Main {
 
 	public static void main(String[] args) {
 
-
-		runTest("ex015.DividerTest");
-		runTest("ex016.DonutBoxesTest");
-		runTest("ex017.MaximumTest");
-		runTest("ex018.ConditionalStatements1Test");
-		runTest("ex019.ConditionalStatements2Test");
-		runTest("ex020.ConditionalStatements3Test");
-		runTest("ex021.ConditionalStatements4Test");
-		runTest("ex022.ConditionalStatements6Test");
-		runTest("ex023.Loops1Test");
-		runTest("ex024.Loops2Test");
-		runTest("ex025.Loops3Test");
-		runTest("ex026.Loops4Test");
-		runTest("ex027.Loops5Test");
-		runTest("ex028.Loops6Test");
+		runTest("ex029.ArrayPractice1Test");
+		runTest("ex030.ArrayPractice2Test");
+		runTest("ex031.ArrayPractice3Test");
+		runTest("ex032.ArrayLoopingPractice1Test");
+		runTest("ex033.ArrayLoopingPractice2Test");
+		runTest("ex034.ArrayLoopingPractice3Test");
+		runTest("ex035.ArrayLoopingPractice4Test");
+		runTest("ex036.ArrayLists1Test");
+		runTest("ex037.ArrayLists2Test");
+		runTest("ex038.ArrayLists3Test");
+		runTest("ex039.ArrayLists4Test");
+		runTest("ex040.ArrayLists5Test");
+		runTest("ex041.ArrayLists6Test");
+		runTest("ex042.ArrayLists7Test");
+		runTest("ex043.ArrayLists8Test");
+		runTest("ex044.TwoDArrayPractice1Test");
+		runTest("ex045.TwoDArrayPractice2Test");
+		runTest("ex046.TwoDArrayPractice3Test");
+		runTest("ex047.TwoDArrayPractice4Test");
+		runTest("ex048.TwoDArrayPractice5Test");
+		runTest("ex049.TwoDArrayPractice6Test");
+		runTest("ex050.TwoDArrayPractice7Test");
 
 		System.out.println("*** TOTAL ***");
 		System.out.println(String.format("[%10d tests started         ]", totalRunCount));
