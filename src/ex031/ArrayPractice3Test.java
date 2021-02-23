@@ -12,8 +12,8 @@ public class ArrayPractice3Test {
 		int[] b = {6,2,73,5,1,6};
 		ArrayPractice3.timesTen(a);
 		ArrayPractice3.timesTen(b);
-		assertArrayEquals(new int[] {10,1,30,2,50},a);
-		assertArrayEquals(new int[] {3,1,730,50,10,3},b);
+		assertArrayEquals(new int[] {10,20,30,40,50},a);
+		assertArrayEquals(new int[] {60,20,730,50,10,60},b);
 	}
 
 }
