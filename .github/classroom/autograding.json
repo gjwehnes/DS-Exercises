@@ -3,7 +3,7 @@
     {
       "name": "test1",
       "setup": "",
-      "run": "gradle test --tests ex031.ArrayPractice1Test
+      "run": "gradle test --tests ex031.ArrayPractice1Test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "test2",
       "setup": "",
-      "run": "gradle test --tests ex030.ArrayPractice2Test
+      "run": "gradle test --tests ex030.ArrayPractice2Test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "test3",
       "setup": "",
-      "run": "gradle test --tests ex031.ArrayPractice3Test
+      "run": "gradle test --tests ex031.ArrayPractice3Test",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "test4",
       "setup": "",
-      "run": "gradle test --tests ex032.ArrayLoopingPractice1Test
+      "run": "gradle test --tests ex032.ArrayLoopingPractice1Test",
       "input": "",
       "output": "",
       "comparison": "included",
