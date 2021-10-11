@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "gradle test --tests ex031.ArrayPractice1Test
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "gradle test --tests ex030.ArrayPractice2Test
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "gradle test --tests ex031.ArrayPractice3Test
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": "gradle test --tests ex032.ArrayLoopingPractice1Test
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test5",
+      "setup": "",
+      "run": "gradle test --tests ex033.ArrayLoopingPractice2Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test6",
+      "setup": "",
+      "run": "gradle test --tests ex034.ArrayLoopingPractice3Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test7",
+      "setup": "",
+      "run": "gradle test --tests ex035.ArrayLoopingPractice4Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test8",
+      "setup": "",
+      "run": "gradle test --tests ex036.ArrayLists1Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test9",
+      "setup": "",
+      "run": "gradle test --tests ex037.ArrayLists2Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test10",
+      "setup": "",
+      "run": "gradle test --tests ex038.ArrayLists3Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test11",
+      "setup": "",
+      "run": "gradle test --tests ex039.ArrayLists4Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test12",
+      "setup": "",
+      "run": "gradle test --tests ex040.ArrayLists5Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test13",
+      "setup": "",
+      "run": "gradle test --tests ex041.ArrayLists6Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test14",
+      "setup": "",
+      "run": "gradle test --tests ex042.ArrayLists7Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test15",
+      "setup": "",
+      "run": "gradle test --tests ex043.ArrayLists8Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test16",
+      "setup": "",
+      "run": "gradle test --tests ex044.TwoDArrayPractice1Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test17",
+      "setup": "",
+      "run": "gradle test --tests ex045.TwoDArrayPractice2Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test18",
+      "setup": "",
+      "run": "gradle test --tests ex046.TwoDArrayPractice3Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test19",
+      "setup": "",
+      "run": "gradle test --tests ex047.TwoDArrayPractice4Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test20",
+      "setup": "",
+      "run": "gradle test --tests ex048.TwoDArrayPractice5Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test21",
+      "setup": "",
+      "run": "gradle test --tests ex049.TwoDArrayPractice6Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test22",
+      "setup": "",
+      "run": "gradle test --tests ex050.TwoDArrayPractice7Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
