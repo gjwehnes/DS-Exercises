@@ -1,10 +1,7 @@
 package ex035;
 
-import static org.junit.Assert.*;
-
-import java.util.Arrays;
-
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 public class ArrayLoopingPractice4Test {
 

@@ -1,10 +1,7 @@
 package ex043;
 
-import static org.junit.Assert.*;
-
-import java.util.ArrayList;
-
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 

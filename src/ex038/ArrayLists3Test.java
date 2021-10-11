@@ -1,10 +1,8 @@
 package ex038;
 
-import static org.junit.Assert.*;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
-
-import org.junit.Test;
 
 public class ArrayLists3Test {
 

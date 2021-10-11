@@ -1,11 +1,9 @@
 package ex039;
 
-import static org.junit.Assert.*;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import org.junit.Test;
 
 public class ArrayLists4Test {
 
