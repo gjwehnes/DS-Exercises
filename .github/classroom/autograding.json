@@ -3,7 +3,7 @@
     {
       "name": "test1",
       "setup": "",
-      "run": "gradle test --tests ex031.ArrayPractice1Test",
+      "run": "gradle test --tests ex029.ArrayPractice1Test",
       "input": "",
       "output": "",
       "comparison": "included",
