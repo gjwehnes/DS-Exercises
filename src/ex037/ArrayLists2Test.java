@@ -9,19 +9,26 @@ public class ArrayLists2Test {
 
 	@Test
 	public void test() {
+		
+		ArrayList<String> comparison = new ArrayList<String>();
+		
+		comparison.add("alpha");		
+		comparison.add("beta");		
+		comparison.add("gamma");		
+		
 		ArrayList<String> a = new ArrayList<String>();
-		a.add("hi");
-		a.add("there");
-		a.add("howdy");
-		a.add("woo");
-		ArrayLists2.modify(a);
+		a.add("one");
+		a.add("two");
+		a.add("three");
+		ArrayLists2.modify(a);		
+		assertEquals(comparison,a);
+		
 		ArrayList<String> b = new ArrayList<String>();
-		b.add("git");
-		b.add("there");
-		b.add("gud");
-		b.add("woo");
-
-		assertEquals(b,a);
+		b.add("A");
+		b.add("B");
+		b.add("C");
+		ArrayLists2.modify(b);		
+		assertEquals(comparison,b);
 	}
 
 }

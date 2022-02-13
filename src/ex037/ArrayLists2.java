@@ -1,6 +1,6 @@
 package ex037;
 /*
-The next method we will learn about is the .set() method.
+The next method we will learn about is the .set() method
 
 The .set() ArrayList method will set the value of a particular index to be a given value.  
 
@@ -20,7 +20,8 @@ nums.set(0,100);
 Notice how the way it works is:
 arraylistvariable.set(index to set, new value);
 
-On the left, write code that will take an argument of String ArrayLists called words, and then set the 0th and 2nd indexes to be "git" and "gud" respectively.
+In the class below, add code so that the ArrayList passed in has the 1st element changed to 'alpha', the 2nd element change to 'beta',
+and the 3rd element changed to 'gamma'
 */
 import java.util.ArrayList;
 
