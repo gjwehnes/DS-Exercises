@@ -7,17 +7,35 @@ public class TwoDArrayPractice4Test {
 
 	@Test
 	public void test() {
-		int[][] c = {
-			    {1,2},
-			    {3,4}
-			};
-			assertEquals(6,TwoDArrayPractice4.sumEvenIndex(c));
+		int[][] a = {
+				{1,2},
+				{3,4}
+		};
+		assertEquals(6,TwoDArrayPractice4.sumEvenIndex(a));
 
-			int[][] d = {
-			    {1,1},
-			    {1,1}
-			};
-			assertEquals(3,TwoDArrayPractice4.sumEvenIndex(d));
+		int[][] b = {
+				{1,2,3,4,5},
+				{6,7,8,9,10}
+		};
+		assertEquals(39,TwoDArrayPractice4.sumEvenIndex(b));
+
+		int[][] c = {
+				{1,2,3},
+				{4,5,6},
+				{7,8,9},
+				{10,11,12}
+		};
+		assertEquals(62,TwoDArrayPractice4.sumEvenIndex(c));
+
+		int[][] d = {
+				{1,1,1,1,1},
+				{1,1,1,1,1},
+				{1,1,1,1,1},
+				{1,1,1,1,1},
+				{1,1,1,1,1}
+		};
+		assertEquals(21,TwoDArrayPractice4.sumEvenIndex(d));
+
 	}
 
 }
