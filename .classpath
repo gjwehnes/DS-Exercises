@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="ex030"/>
+	<classpathentry kind="src" path="ex031"/>
+	<classpathentry kind="src" path="ex032"/>
+	<classpathentry kind="src" path="ex033"/>
+	<classpathentry kind="src" path="ex034"/>
+	<classpathentry kind="src" path="ex035"/>
+	<classpathentry kind="src" path="ex036"/>
+	<classpathentry kind="src" path="ex037"/>
+	<classpathentry kind="src" path="ex038"/>
+	<classpathentry kind="src" path="ex039"/>
+	<classpathentry kind="src" path="ex040"/>
+	<classpathentry kind="src" path="ex041"/>
+	<classpathentry kind="src" path="ex042"/>
+	<classpathentry kind="src" path="ex043"/>
+	<classpathentry kind="src" path="ex044"/>
+	<classpathentry kind="src" path="ex045"/>
+	<classpathentry kind="src" path="ex046"/>
+	<classpathentry kind="src" path="ex047"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
 		<attributes>
 			<attribute name="module" value="true"/>
