@@ -1,7 +1,4 @@
 
-/*
- * Complete the sumElements method to find the sum of all elements in the given array.
-*/		
 public class ArrayPractice1 {
 
 	public static int sumElements(int[] a) {
