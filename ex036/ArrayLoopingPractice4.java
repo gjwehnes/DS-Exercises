@@ -5,8 +5,23 @@
 public class ArrayLoopingPractice4 {
 
 	public static String maxLength(String[] a) {
-		// TODO add code here
-		return null;
+		
+		if (a == null) {
+			return "";
+		}
+		if (a.length == 0) {
+			return "";
+		}
+		
+	    String large = a[0];
+	    int i;
+        int max = a[0].length();
+        for (i = 0; i < a.length; i++) {
+            if (a[i].length() > max) {
+                max = a[i].length();  
+                large = a[i];
+            }
+        }
+		return large;
 	}
-
 }
