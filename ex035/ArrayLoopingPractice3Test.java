@@ -8,8 +8,7 @@ public class ArrayLoopingPractice3Test {
 
 	@Test
 	public void tests() {
-		// Failure message: 
-		// This test has no failure messages
+
 		int[] a = {6,3,8,3,1,1,6,4,-2};
 		assertEquals(8,ArrayLoopingPractice3.maxValue(a));
 
@@ -19,6 +18,9 @@ public class ArrayLoopingPractice3Test {
 		int[] c = {-18,-72,-5,-11,-42};
 		assertEquals(-5,ArrayLoopingPractice3.maxValue(c));
 
+		int[] d = {};
+		assertEquals(true,Double.isNaN(ArrayPractice2.avgElements(d)));
+		
 	}
 
 }
