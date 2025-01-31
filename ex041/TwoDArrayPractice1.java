@@ -5,8 +5,15 @@
 */
 public class TwoDArrayPractice1 {
 
+	
 	public static void doubleArray(double[][] a) {
-		// TODO add code here
+	    
+	    for (int i = 0; i < a.length; ++i) {
+	     
+	        for (int j = 0; j < a[i].length; ++j) {
+	            
+		                a[i][j] = a[i][j] * 2;
+		            }
+		        }
+		    }
 	}
-
-}
