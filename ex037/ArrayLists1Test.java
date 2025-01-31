@@ -18,6 +18,12 @@ public class ArrayLists1Test {
 		ArrayList<String> e = new ArrayList<String>(Arrays.asList("wow","very","doge","such","meme"));
 		ArrayList<String> f = new ArrayList<String>(Arrays.asList("a","z","b","wow","very","doge","such","meme"));
 		assertEquals(f,ArrayLists1.combineLists(d,e));
+		
+		ArrayList<String> g = new ArrayList<String>(Arrays.asList("x","y","z"));
+		ArrayList<String> h = new ArrayList<String>(Arrays.asList());
+		ArrayList<String> i = new ArrayList<String>(Arrays.asList("x","y","z"));
+		assertEquals(i,ArrayLists1.combineLists(g,h));
+		
 	}
 
 }
