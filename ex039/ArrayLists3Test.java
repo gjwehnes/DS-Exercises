@@ -19,8 +19,6 @@ public class ArrayLists3Test {
 		ArrayLists3.removeEveryOther(c);
 		assertEquals(d,c);
 
-
-
 	}
 
 }
