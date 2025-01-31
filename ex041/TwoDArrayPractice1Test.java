@@ -135,7 +135,7 @@ public class TwoDArrayPractice1Test {
             for (int c = 0; c < a9[0].length; c++) {
                 assertEquals(result9[r][c], a9[r][c], 0.001);
             }
-        }
+        	}
         
         // Test null array
         double[][] a10 = null;        
