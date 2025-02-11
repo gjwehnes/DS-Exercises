@@ -53,6 +53,6 @@ public class TwoDArrayPractice3Test {
 
         // Test null array
         int[][] a6 = null;
-        assertTrue(Double.isNaN(TwoDArrayPractice3.max2Delement(a6)));
+        assertEquals(Double.MIN_VALUE, TwoDArrayPractice3.max2Delement(a6));
     }
 }
