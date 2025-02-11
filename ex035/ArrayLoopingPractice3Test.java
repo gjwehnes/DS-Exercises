@@ -19,7 +19,7 @@ public class ArrayLoopingPractice3Test {
 		assertEquals(-5,ArrayLoopingPractice3.maxValue(c));
 
 		int[] d = {};
-		assertEquals(true,Double.isNaN(ArrayPractice2.avgElements(d)));
+		assertEquals(Integer.MIN_VALUE, ArrayLoopingPractice3.maxValue(d));
 		
 	}
 
