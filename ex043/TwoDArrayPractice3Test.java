@@ -9,24 +9,24 @@ public class TwoDArrayPractice3Test {
     @Test
     public void testMax2Delement() {
         // Original test case
-        int[][] a1 = {
+        double[][] a1 = {
             {1, 10},
             {-10, 1}
         };
         assertEquals(10, TwoDArrayPractice3.max2Delement(a1));
 
-        int[][] b1 = {
+        double[][] b1 = {
             {1, 2, 3, 4, 1, 1},
             {5, 6, 7, 8, 9, 15}
         };
         assertEquals(15, TwoDArrayPractice3.max2Delement(b1));
 
         // Test empty array
-        int[][] a2 = {};
+        double[][] a2 = {};
         assertTrue(Double.isNaN(TwoDArrayPractice3.max2Delement(a2)));
 
         // Test negative values
-        int[][] a3 = {
+        double[][] a3 = {
             {-3, -1},
             {-5, -1},
             {-2, -1},
@@ -35,7 +35,7 @@ public class TwoDArrayPractice3Test {
         assertEquals(-1, TwoDArrayPractice3.max2Delement(a3));
 
         // Test zero values
-        int[][] a4 = {
+        double[][] a4 = {
             {0, 0},
             {0, 0},
             {0, 0},
@@ -44,7 +44,7 @@ public class TwoDArrayPractice3Test {
         assertEquals(0, TwoDArrayPractice3.max2Delement(a4));
 
         // Test varying dimensions
-        int[][] a5 = {
+        double[][] a5 = {
             {1, 2, 3},
             {4, 5, 6, 7},
             {8, 9}
@@ -52,7 +52,7 @@ public class TwoDArrayPractice3Test {
         assertEquals(9, TwoDArrayPractice3.max2Delement(a5));
 
         // Test null array
-        int[][] a6 = null;
+        double[][] a6 = null;
         assertEquals(Double.MIN_VALUE, TwoDArrayPractice3.max2Delement(a6));
     }
 }
