@@ -2,7 +2,7 @@
 
 Complete the method so that it takes in a 2-D array and returns the sums of the rows as a 1-D integer array.
 
-For example, the if we run rowSums for the following 2D array:
+For example, if we call rowSums for the following 2D array:
 ```
   {1,1,2},        //sum = 1 + 1 + 2 = 4
   {3,1,2},        //sum = 6
@@ -11,4 +11,6 @@ For example, the if we run rowSums for the following 2D array:
 ```
 
 Then we should get the following array back:
-```{4,6,11,3}```
+```
+{4,6,11,3}
+```
