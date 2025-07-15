@@ -3,10 +3,12 @@ Complete the sumEvenIndex method so that it takes in a 2-dimensional integer arr
 
 For example, in the following array, the cells with an x would be summed:
 
-     0	1	2	3
-
-0   x	x	x	x
-1	x		x	
-2	x	x	x	x
-3	x		x	
- */
+```
+     0    1    2    3    4
+0    x    x    x    x    x
+1    x         x         x
+2    x    x    x    x    x
+3    x         x         x
+4    x    x    x    x    x
+5    x         x         x
+```
