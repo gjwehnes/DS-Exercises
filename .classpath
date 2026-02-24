@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="ex031"/>
 	<classpathentry kind="src" path="ex032"/>
 	<classpathentry kind="src" path="ex033"/>
-	<classpathentry kind="src" path="ex034"/>
 	<classpathentry kind="src" path="ex035"/>
 	<classpathentry kind="src" path="ex036"/>
 	<classpathentry kind="src" path="ex037"/>
@@ -26,3 +25,4 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+
