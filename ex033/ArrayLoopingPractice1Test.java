@@ -1,7 +1,7 @@
 
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertTrue;
+import org.junit.Test;
 import java.util.Arrays;
 
 public class ArrayLoopingPractice1Test {
