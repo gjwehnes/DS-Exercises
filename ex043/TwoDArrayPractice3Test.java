@@ -13,13 +13,13 @@ public class TwoDArrayPractice3Test {
             {1, 10},
             {-10, 1}
         };
-        assertEquals(10, TwoDArrayPractice3.max2Delement(a1));
+        assertEquals(10, TwoDArrayPractice3.max2Delement(a1), 0);
 
         double[][] b1 = {
             {1, 2, 3, 4, 1, 1},
             {5, 6, 7, 8, 9, 15}
         };
-        assertEquals(15, TwoDArrayPractice3.max2Delement(b1));
+        assertEquals(15, TwoDArrayPractice3.max2Delement(b1),0);
 
         // Test empty array
         double[][] a2 = {};
@@ -32,7 +32,7 @@ public class TwoDArrayPractice3Test {
             {-2, -1},
             {-1, -3}
         };
-        assertEquals(-1, TwoDArrayPractice3.max2Delement(a3));
+        assertEquals(-1, TwoDArrayPractice3.max2Delement(a3), 0);
 
         // Test zero values
         double[][] a4 = {
@@ -41,7 +41,7 @@ public class TwoDArrayPractice3Test {
             {0, 0},
             {0, 0}
         };
-        assertEquals(0, TwoDArrayPractice3.max2Delement(a4));
+        assertEquals(0, TwoDArrayPractice3.max2Delement(a4), 0);
 
         // Test varying dimensions
         double[][] a5 = {
@@ -49,10 +49,10 @@ public class TwoDArrayPractice3Test {
             {4, 5, 6, 7},
             {8, 9}
         };
-        assertEquals(9, TwoDArrayPractice3.max2Delement(a5));
+        assertEquals(9, TwoDArrayPractice3.max2Delement(a5), 0);
 
         // Test null array
         double[][] a6 = null;
-        assertEquals(Double.MIN_VALUE, TwoDArrayPractice3.max2Delement(a6));
+        assertEquals(Double.MIN_VALUE, TwoDArrayPractice3.max2Delement(a6), 0);
     }
 }
